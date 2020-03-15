@@ -4,7 +4,8 @@
   "description": "event sourcing with nodejs and microservices",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev-server": "nodemon src/bin/start-server.js --color"
   },
   "repository": {
     "type": "git",
