@@ -1,0 +1,23 @@
+{
+  "name": "practical-microservices",
+  "version": "1.0.0",
+  "description": "event sourcing with nodejs and microservices",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lobtheslob/practical-microservices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lobtheslob/practical-microservices/issues"
+  },
+  "homepage": "https://github.com/lobtheslob/practical-microservices#readme",
+  "devDependencies": {
+    "eslint": "~6.8.0"
+  }
+}
