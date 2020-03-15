@@ -1,0 +1,6 @@
+node_modules/
+Dockerfile
+tet-results.xml
+.vscode/
+coverage/
+s
