@@ -1,0 +1,16 @@
+#!/bin/bash
+
+env
+
+echo $@
+
+if [ -d coverage ]; then
+	rm -rf coverage
+fi
+
+if [ -d test-results ]; then
+	rm -rf test-results
+fi
+
+make -e SUDO='sudo' -e DOCKER='sudo docker' build-agent
+

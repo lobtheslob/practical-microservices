@@ -1,0 +1,16 @@
+on: '3.7'
+
+# NOTE: This file allows you to start all of your db dependencies
+# # separate from the actual service. This is useful when running
+# # the service locally without docker
+#
+ services:
+   # Message store database
+   eventide:
+      image: jpopesculian/eventide-postgres 
+    network_mode: bridge
+    ports:
+      - 5432:5432
+    expose:
+      - 5432
+

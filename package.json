@@ -4,7 +4,8 @@
   "description": "event sourcing with nodejs and microservices",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev-server": "nodemon src/bin/start-server.js --color"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/lobtheslob/practical-microservices#readme",
   "devDependencies": {
     "eslint": "~6.8.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

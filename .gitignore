@@ -1,0 +1,22 @@
+# You kno what this is for
+node_modules
+
+# Coverage from the test runs goes here
+coverage
+
+# OSX
+.DS_Store
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# Optional npm cache directory
+.npm
+
+# JUnit
+test-results
+
+package-lock.json
